@@ -79,7 +79,7 @@ export const MemoryGame: React.FC<MemoryGameProps> = ({ onComplete }) => {
   };
 
   return (
-    <div className="flex flex-col items-center p-4 relative w-full h-full justify-start overflow-y-auto">
+    <div className="h-full flex flex-col items-center p-4 relative w-full justify-start">
       <h2 className="text-xs text-green-800 font-bold mb-6 mt-2 shrink-0">MATCH THE PAIRS</h2>
       
       {showPlusOne && (
